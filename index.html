@@ -15,15 +15,14 @@
             <button id="project-path" onclick="projects()"><p>Projects</p></button>
             <button id="contact-path" onclick="contactShow()"><p>Contact</p></button>           
         </div>                   
-            <section id="main">
+            <div id="main">
                 <div id="polygon_path">
-                    <div id="wrapper">
-                        <div id="cloud-wrapper">
-                            <div class="x1">
-                                <div class="cloud"></div>
-                            </div>
-                            <div class="x2">
-                                <div class="cloud"></div>
+                    <div id="cloud-wrapper">
+                        <div class="x1">
+                            <div class="cloud"></div>
+                        </div>
+                        <div class="x2">
+                            <div class="cloud"></div>
                             </div>
                             <div class="x3">
                                 <div class="cloud"></div>
@@ -36,24 +35,27 @@
                             </div>
                         </div>
                         <div id="sun"></div>
-                        <div id="intro">
-                            <h1>Hi, I'm Stephen!</h1>
-                            <h4>I'm a web developer from Dallas, currently focusing on front-end development with a goal of becoming a full-stack developer in the near future. Check out some of my projects below.</h4>
-                        </div>
-                        <div id="projects" style="display: none">Placeholder                           
-                        </div>
+                        <div id="wrapper">
+                            <div id="intro">
+                                <h1>Hi, I'm Stephen!</h1>
+                                <h4>I'm a web developer from Dallas, currently focusing on front-end development with a goal of becoming a full-stack developer in the near future. Check out some of my projects below.</h4>
+                            </div>
+                            <div id="projects" style="display: none">
+                                <div class="project-card"><button onclick="test()">test</button></div> 
+                                <div class="project-card"></div> 
+                                <div class="project-card"></div>                         
+                            </div>
+                        </div>                    
                         <div id="bottom-left">
                             <div class="wave"></div>
                             <div class="wave"></div>
                         </div> 
-                    </div>                    
-                </div>
-                <div id="avatar">
+                </div>                
                     <img id="github" src="./images/Octocat.png" alt="github-avatar"></img>
-                    <!-- <div id="talk-bubble"> <p>Check out my Github!</p>                                       -->
+                    <!-- <div id="talk-bubble"> <p>Check out my Github!</p>                                      -->
+                
                 </div>
-                </div>
-            </section>
+            </div>
         
     </body>
 

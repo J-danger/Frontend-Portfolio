@@ -16,3 +16,7 @@ function projects() {
         y.style.display = "none"      
     } 
 }
+
+function test(){
+alert('test')
+}

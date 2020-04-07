@@ -4,6 +4,8 @@ body{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    position:relative
+    pointer-events: none;
 }
 
 #polygon_path {
@@ -14,7 +16,8 @@ body{
     width: 100%;
     position: relative;
     margin: 0 ;  
-    z-index: -1;  
+    z-index: -1; 
+    pointer-events: none; 
 }
 
 /* background: rgb(86, 125, 70) */
@@ -24,12 +27,13 @@ body{
     width: 100%;
     position: relative;
     margin: 0;  
-    z-index: -1;  
-    
+    z-index: -1;     
+    position:relative 
+    pointer-events: none;
 }
 
-#github{
-    /* z-index: -1; */
+
+#github{    
     position: absolute;
     bottom: 15%;
     right: 10%;
@@ -37,6 +41,8 @@ body{
     height: 300px;
     width: 285px;
 }
+
+
 
 /* #talk-bubble {
     -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
@@ -72,6 +78,7 @@ body{
 
 #wrapper {
     text-align: center;    
+    pointer-events: none;
 }
 
 #intro {   
@@ -85,6 +92,21 @@ body{
 
 #projects{
     display: hide;
+    z-index: 1;
+    position:relative;    
+}
+
+.project-card {
+    width: 200px;
+    height: 250px;
+    border: black 1px solid;
+    float: left;
+    margin: 20px;    
+}
+
+.project-card:hover{
+    width: 400px;
+    height: 450px;
 }
 
 #bottom-left{
