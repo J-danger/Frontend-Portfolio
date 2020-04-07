@@ -2,20 +2,20 @@
     <link>
         <meta charset="UTF-8">
         <title>SH Portfolio</title>
-        <script src="run.js.js" type="text/javascript"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
         <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css"></link>   
+        <script src="run.js" type="text/javascript"></script>
     </head>
 
     <body>
-        <div id="container">
+        
+        <div id="nav-top">
+            <button id="home-path" onclick="homeShow()"><p>Home</p></button>
+            <button id="project-path" onclick="projects()">Projects</button>
+            <button id="contact-path" onclick="contactShow()"><p>Contact</p></button>           
+        </div>                   
             <section id="main">
-                <div id="nav-top">
-                    <button id="home-path" onclick="homeShow()"><p>Home</p></button>
-                    <button id="project-path" >Projects</button>
-                    <button id="contact-path" onclick="contactShow()"><p>Contact</p></button>
-                </div>                   
                 <div id="polygon_path">
                     <div id="wrapper">
                         <div id="cloud-wrapper">
@@ -51,7 +51,7 @@
                 </div>
                 </div>
             </section>
-        </div>
+        
     </body>
 
 </html>
