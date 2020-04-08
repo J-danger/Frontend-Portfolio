@@ -89,7 +89,20 @@ body{
     0 0 50px 30px orangered,
     0 0 70px 45px yellow;
     pointer-events: none; 
+    transition-duration: 4s;
+    
 }
+
+@keyframes sun {
+    0% {
+        top: 75px;
+        left: 50px;
+    }
+    100% {
+        top: 60%;
+        left: 55%;
+    }
+  }
 
 
 

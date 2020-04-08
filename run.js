@@ -29,7 +29,8 @@ function projects() {
     z.style.background = "radial-gradient(circle, rgba(235,201,65,1) 0%, rgba(242,118,46,1) 43%)"
     z.style.transition = "2s"
     sun.style.top = "60%"
-    sun.style.left= "55%"
+    sun.style.left = "55%"
+    sun.animation = "sun"
 }
 
 function test(){
