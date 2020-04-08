@@ -8,8 +8,8 @@ function home() {
         intro.style.display = "inline-block";  
         projects.style.display = "none"      
     } 
-    polygon.style.backgroundColor = "rgb(70,164,213)"
-    polygon.style.background = "radial-gradient(circle, rgba(70,164,213,1) 0%, rgba(0,160,186,1) 61%)"
+    polygon.style.backgroundColor = "rgb(135,206,235);"
+    polygon.style.background = "radial-gradient(circle, rgba(135,206,235,1) 0%, rgba(63,187,223,1) 100%)"
     
 
     sun.style.top = "75px"
@@ -44,7 +44,8 @@ function contact() {
     var polygon = document.getElementById("polygon_path")
     var sun = document.getElementById("sun")
     if (projects.style.display === "none") {
-        projects.style.display = "inline-block";  
+        // contact.style.display = "inline-block";  
+        projects.style.display = "none";
         intro.style.display = "none"      
     } 
     // polygon.style.backgroundColor = "rgb(235,201,65)"
@@ -52,7 +53,7 @@ function contact() {
     
    
     sun.style.top = "75px"
-    sun.style.left = "50px"
+    sun.style.right = "50px"
     sun.style.backgroundColor = "white"
     sun.style.boxShadow = "none"
     sun.style.transitionDuration = "2s"
