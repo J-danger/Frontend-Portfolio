@@ -1,11 +1,9 @@
 body{
-    height: 100%;
-    width: 100%;
+    
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-    position:relative
-    pointer-events: none;
+    overflow-x: hidden;    
+    z-index: -2;
 }
 
 #polygon_path {
@@ -16,8 +14,8 @@ body{
     width: 100%;
     position: relative;
     margin: 0 ;  
-    z-index: -1; 
-    pointer-events: none; 
+    
+    
 }
 
 /* background: rgb(86, 125, 70) */
@@ -27,9 +25,9 @@ body{
     width: 100%;
     position: relative;
     margin: 0;  
-    z-index: -1;     
-    position:relative 
-    pointer-events: none;
+    z-index: -2;     
+    position:relative; 
+    
 }
 
 
@@ -60,9 +58,9 @@ body{
 } */
 
 #sun {
-    position: relative;
-    top: 50px;
-    left: 20px;
+    position: absolute;
+    top: 75px;
+    left: 50px;
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -72,13 +70,14 @@ body{
     0 0 30px 15px #fff,
     0 0 50px 30px orangered,
     0 0 70px 45px yellow;
+    pointer-events: none; 
 }
 
 
 
 #wrapper {
-    text-align: center;    
-    pointer-events: none;
+    text-align: center; 
+    z-index: 1;
 }
 
 #intro {   
@@ -101,7 +100,8 @@ body{
     height: 250px;
     border: black 1px solid;
     float: left;
-    margin: 20px;    
+    margin: 20px; 
+    z-index: 50;   
 }
 
 .project-card:hover{
