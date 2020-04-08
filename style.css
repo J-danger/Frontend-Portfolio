@@ -1,5 +1,5 @@
 body{
-    
+    background: rgb(194, 178, 128);
     margin: 0;
     padding: 0;
     overflow-x: hidden;    
@@ -19,7 +19,7 @@ body{
 }
 
 /* background: rgb(86, 125, 70) */
-#main {
+/* #main {
     background: rgb(194, 178, 128);
     height: 100%;
     width: 100%;
@@ -28,7 +28,7 @@ body{
     z-index: -2;     
     position:relative; 
     
-}
+} */
 
 
 #github{    
@@ -38,6 +38,24 @@ body{
     font-size: 25px;
     height: 300px;
     width: 285px;
+}
+
+#umbrella {
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
+    font-size: 25px;
+    height: 300px;
+    width: 285px;
+}
+
+#chair {
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+    font-size: 25px;
+    height: 275px;
+    width: 225px;
 }
 
 
