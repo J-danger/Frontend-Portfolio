@@ -14,9 +14,11 @@ body{
     height: 100%;
     width: 100%;
     position: relative;
-    margin: 0 ;      
+    margin: 0 ;   
+  
     
 }
+
 
 /* background: rgb(86, 125, 70) */
 /* #main {
@@ -89,9 +91,10 @@ body{
     0 0 50px 30px orangered,
     0 0 70px 45px yellow;
     pointer-events: none; 
-    transition-duration: 4s;
-    
+    transition-duration: 4s;    
 }
+
+
 
 @keyframes sun {
     0% {
@@ -101,6 +104,25 @@ body{
     100% {
         top: 60%;
         left: 55%;
+    }
+  }
+
+  @keyframes moon {    
+      
+    0% {
+        background-color: yellow;
+        box-shadow:
+        0 0 30px 15px #fff,
+        0 0 50px 30px orangered,
+        0 0 70px 45px yellow;
+    }
+    100% {
+        
+        background-color: #fff;
+        box-shadow:
+        0 0 30px 15px #fff,
+        0 0 50px 30px #fff,
+        0 0 70px 45px #fff;
     }
   }
 
@@ -312,4 +334,6 @@ z-index: -1;
     position: absolute;
    
 }
+
+
 
