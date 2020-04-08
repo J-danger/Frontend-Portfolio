@@ -7,14 +7,14 @@ body{
 }
 
 #polygon_path {
-    background: #cae8d5;
+    background: rgb(70,164,213);
+    background: radial-gradient(circle, rgba(70,164,213,1) 0%, rgba(0,160,186,1) 61%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
     clip-path: polygon(0 0, 100% 0, 100% 55%, 0% 100%);
     height: 100%;
     width: 100%;
     position: relative;
-    margin: 0 ;  
-    
+    margin: 0 ;      
     
 }
 
@@ -96,6 +96,9 @@ body{
 #wrapper {
     text-align: center; 
     z-index: 1;
+    position: absolute;
+    width: 100%;
+    top: 15%;
 }
 
 #intro {   
@@ -146,11 +149,40 @@ body{
     z-index: 1;  
 }
 
-#home-path, #project-path, #contact-path{
+.nav-button{
     float: left;
-    margin: 10px;
+   
     z-index: 1;
+    width: 100px;
+    -webkit-box-flex: 1;
+    flex: 1 1 auto;    
+    padding: 10px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s;
 }
+
+.nav-button:after {
+    position: absolute;
+    -webkit-transition: .3s;
+    transition: .3s;
+    content: '';
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    height: 3px;
+    background: #f7f7f7;
+  }
+.nav-button:hover {
+    border-radius: 30px;
+  }
+.nav-button:hover:after {
+    width: 0%;
+  }
 
 .wave {
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x; 
