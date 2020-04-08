@@ -1,67 +1,91 @@
 <html>
-    <link>
-        <meta charset="UTF-8">
-        <title>SH Portfolio</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
-        <link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="style.css"></link>   
-        <script src="run.js" type="text/javascript"></script>
-    </head>
+<link>
+<meta charset="UTF-8">
+<title>SH Portfolio</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</link>
+<script src="run.js" type="text/javascript"></script>
+</head>
 
-    <body>
-        
-        <div id="nav-top">
-            <button class="nav-button" onclick="home()"><p>Home</p></button>
-            <button class="nav-button" onclick="projects()"><p>Projects</p></button>
-            <button class="nav-button" onclick="contact()"><p>Contact</p></button>           
-        </div>                   
-        <div id="polygon_path">            
-                    <div id="cloud-wrapper">
-                        <div class="x1">
-                            <div class="cloud"></div>
-                        </div>
-                        <div class="x2">
-                            <div class="cloud"></div>
-                            </div>
-                            <div class="x3">
-                                <div class="cloud"></div>
-                            </div>
-                            <div class="x4">
-                                <div class="cloud"></div>
-                            </div>
-                            <div class="x5">
-                                <div class="cloud"></div>
-                            </div>
-                        </div>
-                        <div id="sun"></div>
-                        <div id="wrapper">
-                            <div id="intro">
-                                <h1>Hi, I'm Stephen!</h1>
-                                <h4>I'm a web developer from Dallas, currently focusing on front-end development with a goal of becoming a full-stack developer in the near future. Check out some of my projects below.</h4>
-                            </div>                          
-                            <div id="projects" style="display: none">
-                                <div class="project-card"><button onclick="test()">test</button></div> 
-                                <div class="project-card"></div> 
-                                <div class="project-card"></div>                         
-                            </div>
-                            <div id="contact" style="display: none">
-                                <div class="contact-card"></div>                                                       
-                            </div>
-                        </div>                    
-                        <div id="bottom-left">
-                            <div class="wave"></div>
-                            <div class="wave"></div>
-                        </div> 
-                    </div>
-                </div>                   
-                    <img id="github" src="./images/Octocat.png" alt="github-avatar"></img>
-                    <img id="umbrella" src="./images/beach-umbrella-clipart-png-2.png" alt="umbrella-avatar"></img>
-                    <img id="chair" src="./images/chair.png" alt="chair"></img>
-                    <!-- <div id="talk-bubble"> <p>Check out my Github!</p>                                      -->
-                
-                
+<body>
+
+    <div id="nav-top">
+        <button class="nav-button" onclick="home()">
+            <p>Home</p>
+        </button>
+        <button class="nav-button" onclick="projects()">
+            <p>Projects</p>
+        </button>
+        <button class="nav-button" onclick="contact()">
+            <p>Contact</p>
+        </button>
+    </div>
+    <div id="polygon_path">
+        <div id="cloud-wrapper">
+            <div class="x1">
+                <div class="cloud"></div>
             </div>
-        
-    </body>
+            <div class="x2">
+                <div class="cloud"></div>
+            </div>
+            <div class="x3">
+                <div class="cloud"></div>
+            </div>
+            <div class="x4">
+                <div class="cloud"></div>
+            </div>
+            <div class="x5">
+                <div class="cloud"></div>
+            </div>
+        </div>
+        <div id="sun"></div>
+        <div id="wrapper">
+                <div id="intro">
+                    <h1>Hi, I'm Stephen!</h1>
+                    <h4>I'm a web developer from Dallas, currently focusing on front-end development with a goal of becoming
+                        a full-stack developer in the near future. Check out some of my projects below.</h4>
+                </div>
+                <div id="projects" style="display: none">
+                    <div class="project-card"><button onclick="test()">test</button></div>
+                    <div class="project-card"></div>
+                    <div class="project-card"></div>
+                </div>
+                <div id="contact" style="display: none">
+                    <div class="contact-card"></div>
+                </div>
+            </div>
+            <div id="bottom-left">
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>         
+        </div>      
+        <!-- <div id='firepit' style="display: none">
+            <div class='fire'>
+              <div class='flame'></div>
+              <div class='flame'></div>
+              <div class='flame'></div>
+              <div class='flame'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+              <div class='spark'></div>
+            </div>
+        </div> -->
+    </div>
+    <img id="github" src="./images/Octocat.png" alt="github-avatar"></img>
+    <img id="umbrella" src="./images/beach-umbrella-clipart-png-2.png" alt="umbrella-avatar"></img>
+    <img id="chair" src="./images/chair.png" alt="chair"></img>
+
+</body>
 
 </html>

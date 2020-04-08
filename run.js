@@ -1,4 +1,3 @@
-
 function home() {        
     var intro = document.getElementById("intro");
     var projects = document.getElementById("projects")
@@ -42,9 +41,10 @@ function contact() {
     var into = document.getElementById("intro")
     var projects = document.getElementById("projects");
     var polygon = document.getElementById("polygon_path")
+    var contact = document.getElementById("contact")
     var sun = document.getElementById("sun")
-    if (projects.style.display === "none") {
-        // contact.style.display = "inline-block";  
+    if (contact.style.display === "none") {
+        contact.style.display = "inline-block";  
         projects.style.display = "none";
         intro.style.display = "none"      
     } 
