@@ -53,11 +53,11 @@ function contact() {
     
    
     sun.style.top = "75px"
-    sun.style.right = "50px"
+    sun.style.left = "75%"   
     sun.style.backgroundColor = "white"
     sun.style.boxShadow = "none"
     sun.style.transitionDuration = "2s"
-    sun.animation = "moon"
+    sun.animation = "moon1"
 }
 
 function test(){
